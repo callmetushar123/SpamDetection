@@ -1,0 +1,28 @@
+.DS_Store
+
+# Environment variables
+.env*
+!.env.example
+
+# Virtual environments
+.venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+
+# Editor files
+.idea/
+.vscode/
+
+# Local output
+*.log
